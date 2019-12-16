@@ -16,6 +16,11 @@ get_ROC-py: Takes the graph pickle as input and perform graph ML algorihtms on i
 
 my_functions.py: Used to calculate the Random Walk Kernel (RWK) between two graphs.
 
+----------------------
+Acknowledgement
+----------------------
+
+The researchers gratefully acknowledge the support from the ITEA3 TESTOMAT Project, KTH Royal Institute of Technology and  Ericsson AB.
 
 ----------------------
 Cite
