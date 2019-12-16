@@ -6,6 +6,9 @@ A metamorphic relation (MR) is a relation between multiple program executions th
 
 The tool could also be used to train or create new models from custom Java unit function dataset. The tool uses the NetworkX library for working on the graph input and Scikit-learn library to create the machine learning models. The accuracy and efficiency of the machine learning models are visualized using the Matplotlib library. 
 
+----------------------
+Code Functionalities
+----------------------
 createPickle.py: Takes the Dot files and their corresponding class labels of a corresponding MR as input and generates a graph pickle object out of it. This graph pickle could be loaded by other programs for applying graph algorithms on it.
 
 get_ROC-py: Takes the graph pickle as input and perform graph ML algorihtms on it to classiyfing it to its MR class. Later it provides a ROC metric containing the classifier accuracy details.
