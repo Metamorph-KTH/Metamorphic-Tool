@@ -23,7 +23,12 @@ Cite
 Please cite our paper if you use this code in your own work:
 
 ```
-function test() {
-  console.log("notice the blank line before this function?");
+@inproceedings{nair2019leveraging,
+  title={Leveraging mutants for automatic prediction of metamorphic relations using machine learning},
+  author={Nair, Aravind and Meinke, Karl and Eldh, Sigrid},
+  booktitle={Proceedings of the 3rd ACM SIGSOFT International Workshop on Machine Learning Techniques for Software Quality Evaluation},
+  pages={1--6},
+  year={2019},
+  organization={ACM}
 }
 ```
